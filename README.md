@@ -132,3 +132,27 @@ still be compilable with cmake and make.
 ## How to write a README
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
+
+
+### Running the Filter
+
+The goal of this project is to build an Extended Kalman Filter using C++ and use it to estimate the state of a moving object of interest with noisy LIDAR and RADAR measurements.
+
+
+The success metrics for this project are the RMSE values for 2 datasets.
+
+The acceptable values shoule be in the below range:
+
+P_x and P_y < 0.11
+V_x and V_y < 0.52
+
+
+The results for dataset 1 is plotted as below
+
+<img src="images_for_report/data1.PNG" width="800" alt="data1"/> 
+
+The results for dataset 2 is plotted as below
+
+<img src="images_for_report/data2.PNG" width="800" alt="data2"/> 
+
+
